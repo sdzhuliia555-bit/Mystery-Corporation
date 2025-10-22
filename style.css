@@ -1,0 +1,149 @@
+/* ===== THE MYSTERY CORP - MAIN STYLE ===== */
+
+/* Общие настройки страницы */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: url("image/Mystery_Machine.png") no-repeat center center fixed;
+  background-size: cover;
+  color: #ffffff;
+  text-align: center;
+  min-height: 100vh;
+  position: relative;
+}
+
+/* затемнение фона для контраста текста */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 60, 60, 0.55);
+  z-index: -1;
+}
+
+/* ===== HEADER ===== */
+header {
+  background: rgba(0, 128, 128, 0.85);
+  padding: 60px 20px;
+  border-bottom: 4px solid #ff6600;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  font-size: 3em;
+  color: #ffb84d;
+  text-shadow: 3px 3px 6px #000;
+  margin: 0;
+}
+
+header p {
+  font-size: 1.2em;
+  color: #fff;
+  opacity: 0.9;
+}
+
+/* ===== NAVIGATION ===== */
+nav {
+  background: #33cccc;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 15px 0;
+  border-bottom: 3px solid #ff6600;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #ffcc33;
+  transform: scale(1.1);
+}
+
+/* ===== SECTIONS ===== */
+section {
+  background: rgba(0, 51, 51, 0.7);
+  margin: 60px auto;
+  padding: 40px;
+  max-width: 950px;
+  border-radius: 25px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(3px);
+}
+
+section h2 {
+  color: #ffcc33;
+  margin-bottom: 15px;
+  text-shadow: 1px 1px 3px #000;
+}
+
+/* ===== TEAM ===== */
+.team {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 35px;
+  margin-top: 40px;
+}
+
+.team div {
+  background: rgba(0, 128, 128, 0.8);
+  border: 2px solid #ff6600;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team div:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(255, 165, 0, 0.6);
+}
+
+.team img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 15px;
+  border: 3px solid #ffb84d;
+}
+
+
+.team h3 {
+  color: #ffcc33;
+  font-size: 1.3em;
+  margin: 5px 0;
+}
+
+.team p {
+  font-size: 0.95em;
+  color: #fff;
+  opacity: 0.9;
+}
+
+/* ===== CONTACT ===== */
+#contact p {
+  font-size: 1.2em;
+  color: #ffb84d;
+  margin: 10px 0;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  background: rgba(0, 102, 102, 0.85);
+  padding: 20px;
+  border-top: 4px solid #ff6600;
+  color: #fff;
+  font-size: 0.9em;
+  letter-spacing: 0.5px;
+}
+
+
+
