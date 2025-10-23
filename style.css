@@ -5,8 +5,8 @@ body {
   margin: 0;
   font-family: "Poppins", sans-serif;
 
-  /* Background image of the Mystery Machine */
-  background: url("images/Mystery_Machine.png") no-repeat center center fixed;
+  /* путь к фоновой картинке */
+  background: url("../images/Mystery_Machine.png") no-repeat center center fixed;
   background-size: cover;
 
   color: #ffffff;
@@ -15,7 +15,7 @@ body {
   position: relative;
 }
 
-/* Dark overlay for better text contrast */
+/* затемнение фона для лучшей читаемости текста */
 body::before {
   content: "";
   position: fixed;
@@ -26,6 +26,7 @@ body::before {
   background: rgba(0, 60, 60, 0.55);
   z-index: -1;
 }
+
 
 /* ===== HEADER ===== */
 header {
@@ -130,6 +131,7 @@ section h2 {
   opacity: 0.9;
 }
 
+
 /* ===== CONTACT ===== */
 #contact p {
   font-size: 1.2em;
@@ -146,8 +148,3 @@ footer {
   font-size: 0.9em;
   letter-spacing: 0.5px;
 }
-
-
-
-
-
