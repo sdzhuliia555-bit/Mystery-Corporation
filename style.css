@@ -6,7 +6,7 @@ body {
   font-family: "Poppins", sans-serif;
 
   /* Correct path for GitHub Pages */
-background: url("/images/Mystery_Machine.png") no-repeat center center fixed;
+background: url("../images/Mystery_Machine.png") no-repeat center center fixed;
   background-size: cover;
 
   color: #ffffff;
@@ -146,4 +146,5 @@ footer {
   font-size: 0.9em;
   letter-spacing: 0.5px;
 }
+
 
