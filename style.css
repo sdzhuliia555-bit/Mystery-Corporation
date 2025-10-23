@@ -5,8 +5,8 @@ body {
   margin: 0;
   font-family: "Poppins", sans-serif;
 
-  /* путь к фоновой картинке */
-  background: url("../images/Mystery_Machine.png") no-repeat center center fixed;
+  /* Correct path for GitHub Pages */
+  background: url("images/Mystery_Machine.png") no-repeat center center fixed;
   background-size: cover;
 
   color: #ffffff;
@@ -15,7 +15,7 @@ body {
   position: relative;
 }
 
-/* затемнение фона для лучшей читаемости текста */
+/* Dark overlay for better text readability */
 body::before {
   content: "";
   position: fixed;
@@ -26,7 +26,6 @@ body::before {
   background: rgba(0, 60, 60, 0.55);
   z-index: -1;
 }
-
 
 /* ===== HEADER ===== */
 header {
@@ -130,7 +129,6 @@ section h2 {
   color: #fff;
   opacity: 0.9;
 }
-
 
 /* ===== CONTACT ===== */
 #contact p {
